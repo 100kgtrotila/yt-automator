@@ -1,0 +1,12 @@
+# GUI Framework
+customtkinter>=5.2.0
+
+# Google/YouTube API
+google-auth>=2.16.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.80.0
+
+# Additional dependencies
+# FFmpeg is included in src/bin/ (no Python package needed)
+
