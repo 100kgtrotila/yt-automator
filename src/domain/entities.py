@@ -42,5 +42,6 @@ class UploadJob:
         self.error_message = None
 
     def mark_failed(self, error: str):
+
         self.status = JobStatus.FAILED
         self.error_message = str(error)
