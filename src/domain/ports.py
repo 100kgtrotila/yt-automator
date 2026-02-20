@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Optional
-from entities import UploadJob
+from .entities import UploadJob
 
 
 class JobRepositoryPort(ABC):
